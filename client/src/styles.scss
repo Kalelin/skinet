@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.xng-breadcrumb-root {
+    padding: 8px 16px;
+    display: inline;
+    border-radius: 0px;
+}
+
+label.xng-breadcrumb-trail {
+    margin-bottom: 0;
+    color: orange;
+}
+
+.xng-breadcrumb-separator {
+    padding: 0 0;
+}
 
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
@@ -6,4 +20,8 @@
 /* Importing Datepicker SCSS file. */
 @import "~ngx-bootstrap/datepicker/bs-datepicker";
 
+@import "~bootswatch/dist/flatly/bootstrap";
+
 @import "~font-awesome/scss/font-awesome";
+
+@import "~ngx-toastr/toastr";
